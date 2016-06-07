@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Bitbull_SimpleOrder>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends>
+                <Mage_Customer/>
+                <Mage_Page/>
+            </depends>
+        </Bitbull_SimpleOrder>
+    </modules>
+</config>

@@ -1,0 +1,7 @@
+# creates symlinks
+
+# app
+app/code/local/Bitbull/SimpleOrder app/code/local/Bitbull/SimpleOrder
+
+# etc
+etc/modules/Bitbull_SimpleOrder.xml etc/modules/Bitbull_SimpleOrder.xml

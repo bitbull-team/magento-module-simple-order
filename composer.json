@@ -1,5 +1,5 @@
 {
-    "name": "bitbull-team/magento-module-simple-order",
+    "name": "bitbull/magento-module-simple-order",
     "license": "MIT",
     "type": "magento-module",
     "description": "Reorder assets JS/CSS in Magento",

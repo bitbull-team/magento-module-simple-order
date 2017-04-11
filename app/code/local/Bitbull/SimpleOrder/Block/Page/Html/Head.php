@@ -38,6 +38,9 @@ class Bitbull_SimpleOrder_Block_Page_Html_Head extends Mage_Page_Block_Html_Head
     }
 
     public function getCssJsHtml(){
+        if(!isset($this->_data['items']){
+            $this->_data['items'] = array();
+        }
         $this->_data['items']= Mage::helper('bitbull_simpleorder')->sortElementsByPosition($this->_data['items']);
         return parent::getCssJsHtml();
     }
